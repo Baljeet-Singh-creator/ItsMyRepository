@@ -1,0 +1,37 @@
+.app{
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app_calculator{
+    height: 700px;
+    width: 450px;
+    border: 5px solid  rgb(12, 12, 12);
+    border-radius: 25px;
+    box-shadow: 2px -2px 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.custom-scroll::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+  }
+  
+  .custom-scroll::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .custom-scroll::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.14);
+  }
+  
+  .custom-scroll::-webkit-scrollbar-thumb:hover {
+    background-color: gray;
+  }
+    

@@ -1,0 +1,41 @@
+.header{
+    flex:1.2;
+    padding: 5px;
+    overflow-y: scroll;
+    color: azure;
+    background-color: rgb(62, 57, 57);
+    border-top-right-radius: 19px;
+    border-top-left-radius: 19px;
+}
+.header_history{color:rgba(243, 234, 234, 0.6);}
+.header_history p{
+    font-size: 1rem;
+    line-height: 1.875rem;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_expression{
+    overflow-x: scroll;
+    width: 100%;
+    color:rgba(253, 253, 253, 0.73);
+    font-weight: bold;
+    min-height: 30px;
+}
+.header_expression p{
+    font-size: 1.1rem;
+    line-height: 1.920rem;
+    
+    display: flex;
+    justify-content: flex-end;
+    width: fix-content;
+    min-width: 100%;
+    
+}
+
+.header_result{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem !important;
+    min-height: 30px;
+}
